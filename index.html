@@ -7,7 +7,12 @@
         <link rel="stylesheet" href="./assets/css/reset.css" />
 
         <!-- Font -->
-        <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
 
         <!-- Style Css -->
         <link rel="stylesheet" href="./assets/css/style.css" />
@@ -89,6 +94,226 @@
         <title>Document</title>
     </head>
     <body>
-        <h1>Lorem ipsum dolor sit amet.</h1>
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <div class="logo">
+                        <a href="#!">
+                            <img src="./assets/img/Logo.svg" alt="logo" />
+                        </a>
+                    </div>
+                    <nav class="nav-bar">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#!">Home</a></li>
+                            <li class="nav-item"><a href="#!">Products</a></li>
+                            <li class="nav-item"><a href="#!">Features</a></li>
+                            <li class="nav-item"><a href="#!">Blog</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-action">
+                        <a href="#!" class="action-btn btn">Log in</a>
+                        <a href="#!" class="action-btn btn">Sign up</a>
+                    </div>
+                </div>
+
+                <section class="hero">
+                    <div class="hero-content">
+                        <p class="hero__title title-section">
+                            Digital Smart Wallet
+                        </p>
+                        <h1 class="hero__heading heading-section">
+                            Digital
+                            <strong class="hero__heading--light"
+                                >Payment</strong
+                            >
+                            For Everyone.
+                        </h1>
+                        <p class="desc-section hero__desc">
+                            We bring together eveything that’s required to build
+                            websites and apps that accept payments and send
+                            payouts globally. We are the best platform.
+                        </p>
+                        <form action="get" class="hero__form">
+                            <input
+                                type="email"
+                                class="hero-input__email"
+                                placeholder="Your email address"
+                            />
+                            <input
+                                type="button"
+                                class="hero-input__btn btn"
+                                value="Get Started"
+                            />
+                        </form>
+                        <p class="form-desc">
+                            *We’ll respect the inbox and never share your email.
+                        </p>
+                    </div>
+                    <div class="hero-media">
+                        <div class="hero__mobile">
+                            <div class="mobile-card">
+                                <p
+                                    class="mobile-card__heading mobile-card__text"
+                                >
+                                    Main Balance
+                                </p>
+                                <p
+                                    class="mobile-card__balance mobile-card__text"
+                                >
+                                    $78,355.17
+                                </p>
+                                <div class="mobile-card__info">
+                                    <p class="valid-name mobile-card__name">
+                                        VALID THUR
+                                    </p>
+                                    <p class="holder-name mobile-card__name">
+                                        CARD HOLDER
+                                    </p>
+                                    <p class="valid-value mobile-card__value">
+                                        08/22
+                                    </p>
+                                    <p class="holer-value mobile-card__value">
+                                        Md Moshqur Alam
+                                    </p>
+                                </div>
+                                <img
+                                    src="./assets/img/decor-mobile-1.svg"
+                                    alt=""
+                                    class="mobile-card__decor decor-01"
+                                />
+                                <img
+                                    src="./assets/img/decor-mobile-2.svg"
+                                    alt=""
+                                    class="mobile-card__decor decor-02"
+                                />
+                                <img
+                                    src="./assets/img/decor-mobile-3.svg"
+                                    alt=""
+                                    class="mobile-card__decor decor-03"
+                                />
+                            </div>
+
+                            <div class="mobile-fluct">
+                                <div class="mobile-fluct__top">
+                                    <p class="mobile-fluct">Transections</p>
+                                    <img
+                                        src="./assets/img/mobile-fluct-decor.svg"
+                                        alt=""
+                                        class="mobile-fluct__decor"
+                                    />
+                                </div>
+
+                                <div class="mobile-fluct__list">
+                                    <div class="mobile-fluct__item">
+                                        <img
+                                            src="./assets/img/income.png"
+                                            alt=""
+                                            class="mobile-fluct__icon"
+                                        />
+                                        <span class="mobile-fluct__text">
+                                            <p class="mobile-fluct__title">
+                                                Received Money
+                                            </p>
+                                            <p class="mobile-fluct__desc">
+                                                email@gmail.com
+                                            </p>
+                                        </span>
+
+                                        <span class="mobile-fluct__amount">
+                                            <p class="amount">+$1,600</p>
+                                            <p class="time">Sep 23</p>
+                                        </span>
+                                    </div>
+
+                                    <div class="mobile-fluct__item">
+                                        <img
+                                            src="./assets/img/paper-plane.png"
+                                            alt=""
+                                            class="mobile-fluct__icon"
+                                        />
+                                        <span class="mobile-fluct__text">
+                                            <p class="mobile-fluct__title">
+                                                Send Money
+                                            </p>
+                                            <p class="mobile-fluct__desc">
+                                                Airbnb Payment
+                                            </p>
+                                        </span>
+
+                                        <span class="mobile-fluct__amount">
+                                            <p class="amount">- $600</p>
+                                            <p class="time">Sep 23</p>
+                                        </span>
+                                    </div>
+
+                                    <div class="mobile-fluct__item">
+                                        <img
+                                            src="./assets/img/income.png"
+                                            alt=""
+                                            class="mobile-fluct__icon"
+                                        />
+                                        <span class="mobile-fluct__text">
+                                            <p class="mobile-fluct__title">
+                                                Received Money
+                                            </p>
+                                            <p class="mobile-fluct__desc">
+                                                Upwork Earning
+                                            </p>
+                                        </span>
+
+                                        <span class="mobile-fluct__amount">
+                                            <p class="amount">+$1,600</p>
+                                            <p class="time">Sep 23</p>
+                                        </span>
+                                    </div>
+
+                                    <div class="mobile-fluct__item">
+                                        <img
+                                            src="./assets/img/wallet.png"
+                                            alt=""
+                                            class="mobile-fluct__icon"
+                                        />
+                                        <span class="mobile-fluct__text">
+                                            <p class="mobile-fluct__title">
+                                                Pay Bill
+                                            </p>
+                                            <p class="mobile-fluct__desc">
+                                                Electricity Bill
+                                            </p>
+                                        </span>
+
+                                        <span class="mobile-fluct__amount">
+                                            <p class="amount">- $600</p>
+                                            <p class="time">Sep 23</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hero__deposite">
+                            <img
+                                src="./assets/img/deposite-icon.svg"
+                                alt=""
+                                class="deposite__icon"
+                            />
+                            <p class="deposite__title">Deposite</p>
+                            <p class="deposite__amout">$32000</p>
+                        </div>
+                        <div class="hero__interest">
+                            <p class="interest__percent">0%</p>
+                            <p class="interest__title">Interest</p>
+                        </div>
+                        <div class="hero__secures-funds">
+                            <img src="./assets/img/secured-icon.svg" alt="" class="secures-funds__icon">
+                            <div class="secures-funds__text">
+                                <p class="secures-funds__percent">$1.310</p>
+                                <p class="secures-funds__title">SECURED FUNDS</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
     </body>
 </html>
