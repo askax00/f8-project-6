@@ -156,7 +156,7 @@ a {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 160px;
     margin-top: 76px;
 }
 
@@ -494,8 +494,8 @@ a {
 }
 
 .how-it-works__media {
-    width: 33%;
     position: relative;
+    width: 33%;
     height: 619px;
 }
 
@@ -552,10 +552,6 @@ a {
     font-family: Inter, serif;
     font-size: 1.2rem;
     margin-top: 5px;
-}
-
-.how-it-works__content {
-    flex: 1;
 }
 
 .hiw-content__title {
